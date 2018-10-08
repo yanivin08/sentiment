@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sentiment Analysis</title>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+	</head>
+	<body>
+		<div id="mainBody">
+			<textarea id="wordList" onkeydown="wordTokenize(this.value)"></textarea>
+			<img src="img/laugh.png" id="imglaugh" class="imgInactive">
+			<img src="img/happy.png" id="imghappy" class="imgInactive">
+			<img src="img/smile.png" id="imgsmile" class="imgInactive">
+			<img src="img/meh.png" id="imgmeh" class="imgInactive">
+			<img src="img/sad.png" id="imgsad" class="imgInactive">
+			<img src="img/lonely.png" id="imglonely" class="imgInactive">
+			<img src="img/cry.png" id="imgcry" class="imgInactive">
+		</div>
+		<div id="result">
+			<img src="img/logo.png" id="imglogo">
+			<div id="analysisName">
+				<p>SCORE:</p>
+				<p>COMPARATIVE:</p>
+				<p>WORDS FOUND:</p>
+			</div>
+			<div id="analysisResult">
+				<p id="rScore"></p>
+				<p id="rComparative"></p>
+				<p id="rWordFound"></p>
+			</div>
+		</div>
+		<div id="analysis"  class="hide">
+			<div id="analysisTitle" onclick="showDashboard(this.parentElement)">
+				<p>Analysis Breakdown</p>
+			</div>
+			<div id="analysisViewer">
+			<div>
+		</div>
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="listWords.js"></script>
+	</body>
+</html>

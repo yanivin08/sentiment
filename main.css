@@ -1,0 +1,161 @@
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+#wordList{
+	position: absolute;
+	height: 60%;
+	width: 30%;
+	left: 10%;
+	top: 14%;
+	resize: none;
+	padding: 2%;
+	border: none;
+	background-color: rgb(240,240,240);
+	border-radius: 50px;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+#mainBody img{
+	position: absolute;
+	left: 48%;
+	height: 8%;
+	width: auto;
+}
+
+#imglaugh{
+	top: 16%;
+}
+
+#imghappy{
+	top: 25%;
+}
+
+#imgsmile{
+	top: 34%;
+}
+
+#imgmeh{
+	top: 43%;
+}
+
+#imgsad{
+	top: 52%;
+}
+
+#imglonely{
+	top: 61%;
+}
+
+#imgcry{
+	top: 70%;
+}
+
+#imglogo{
+	position: absolute;
+	height: 20%;
+	width: auto;
+}
+
+.imgActive{
+	filter: grayscale(0%);
+	opacity: 1;
+}
+
+.imgInactive{
+	filter: grayscale(100%);
+	opacity: 0.7;
+}
+
+#result{
+	position: absolute;
+	left: 58%;
+	top: 15%;
+	height: 65%;
+	width: 30%;
+	font-family: Impact;
+}
+
+#analysisName{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	width: 40%;
+	text-align: right;
+}
+
+#analysisResult{
+	position: absolute;
+	top: 30%;
+	left: 55%;
+	text-align: left;
+}
+
+#analysis{
+	position: absolute;
+	height: 70%;
+	background-color: rgb(228,228,228);
+	width: 60%;
+	left: 20%;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	transition: 1s;
+}
+
+.hide{
+	bottom: -60%;
+}
+
+.show{
+	bottom: 0%;
+}
+
+#analysisTitle{
+	position: absolute;
+	top: 0%;
+	height: 12%;
+	width: 100%;
+	background-color: rgb(255,188,1);
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	color: white;
+}
+
+#analysisTitle p{
+	position: absolute;
+	font-family: Impact;
+	font-size: 3.5vh;
+	left: 10%;
+	top: -10%;
+}
+
+#analysisViewer{
+	position: absolute;
+	top: 18%;
+	width: 80%;
+	height: 75%;
+	left: 10%;
+	font-family: Agency FB;
+	font-size: 2.2vh;
+	overflow: auto;
+}
+
+.list{
+	padding-bottom: 3%;
+}
+
+.list h3{
+	margin: 0%;
+	padding-bottom: 1%;
+	color: rgb(255,188,1);
+}
+
+.list span{
+	margin: 0%;
+	padding: 0%;	
+}
